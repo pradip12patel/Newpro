@@ -6,12 +6,16 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.time.Duration;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.FillPatternType;
+import org.apache.poi.ss.usermodel.HorizontalAlignment;
 import org.apache.poi.ss.usermodel.IndexedColors;
+import org.apache.poi.ss.usermodel.VerticalAlignment;
 import org.apache.poi.xssf.usermodel.XSSFCellStyle;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -27,8 +31,11 @@ public class Main {
 
  public static void main(String[] args) throws InterruptedException, IOException {
         
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM-dd_HH-mm-ss");
+        String timestamp = LocalDateTime.now().format(dtf);
+
         String filepath = "C:\\Users\\Lenovo\\eclipse-workspace\\New folder\\demo\\Download_data\\";
-        String filename = "Speaker_List1.xlsx";
+        String filename = "Speaker_List_" + timestamp + ".xlsx"; // Append timestamp to the file name
 
         // Check if the file exists
         File file = new File(filepath + filename);
@@ -84,6 +91,9 @@ public class Main {
         XSSFCellStyle headerStyle = book1.createCellStyle();
         headerStyle.setFillForegroundColor(IndexedColors.YELLOW.getIndex());
         headerStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND);
+        headerStyle.setWrapText(true); // Enable text wrapping
+        headerStyle.setAlignment(HorizontalAlignment.CENTER); // Center align text horizontally
+        headerStyle.setVerticalAlignment(VerticalAlignment.CENTER); // Center align text vertically
 
         XSSFRow headerRow = sheet1.createRow(0);
         String[] headers = {"Speaker_Name", "Speaker_Title", "Speaker_SocialHandle", "Speaker_Image", "Speaker_Profile"};
