@@ -1,1 +1,40 @@
 2025-11-22 03:45:51 [main] INFO  com.example.Main - Application started
+2025-11-22 19:04:59 [main] INFO  com.example.Main - Application started
+2025-11-22 19:21:12 [main] INFO  com.example.Main - Application started
+2025-11-22 19:26:41 [main] INFO  com.example.Main - Application started
+2025-11-22 19:35:51 [main] INFO  com.example.Main - Application started
+2025-11-22 19:36:35 [main] INFO  com.example.Main - Application started
+2025-11-22 19:39:00 [main] INFO  com.example.Main - Application started
+2025-11-22 19:40:33 [main] INFO  com.example.Main - Application started
+2025-11-22 19:42:02 [main] INFO  com.example.Main - Application started
+2025-11-22 19:44:04 [main] INFO  com.example.Main - Application started
+2025-11-22 19:45:45 [main] INFO  com.example.Main - Application started
+2025-11-22 19:49:21 [main] INFO  com.example.Main - Application started
+2025-11-22 19:49:21 [main] INFO  com.example.Main - Ensured download directory exists: C:\Users\pradi\Newpro\Download_data\
+2025-11-22 19:49:21 [main] INFO  com.example.Main - Configured webdriver.chrome.driver = C:\Users\pradi\Newpro\drivers\chromedriver-win64\chromedriver.exe
+2025-11-22 19:49:22 [main] INFO  com.example.Main - WebDriverManager set up chromedriver
+2025-11-22 19:49:24 [main] INFO  com.example.Main - Launched ChromeDriver
+2025-11-22 19:49:31 [main] INFO  com.example.Main - Navigated to speakers page
+2025-11-22 19:49:31 [main] INFO  com.example.Main - Closed popup dialog if present
+2025-11-22 19:49:31 [main] INFO  com.example.Main - Found elements - names: 27, titles: 27, buttons: 27, images: 27
+2025-11-22 19:49:32 [main] INFO  com.example.Main - Processing speaker index 0
+2025-11-22 19:50:04 [main] INFO  com.example.Main - Fetched speaker data - Name: Alison
+Macklin
+2025-11-22 19:50:04 [main] INFO  com.example.Main - Title: Certified Child Sleep Expert, CEO Founder of Sleep of Mind
+2025-11-22 19:50:04 [main] INFO  com.example.Main - Social Handles: 
+2025-11-22 19:50:04 [main] INFO  com.example.Main - Image URL: https://thebabyshows.com/wp-content/uploads/2025/03/Alison-Macklin-sq-sm.jpg
+2025-11-22 19:50:04 [main] INFO  com.example.Main - Profile: Alison is a mama, Certified Child Sleep Expert , Certified Hand in Hand Parenting Instructor and owner of Sleep of Mind, a revolutionary infant sleepwear company. It all started when her daughter had major sleep struggles as a newborn. The lack of good information about sleep was frustrating so since 2017, her mission has been to help as many families as possible avoid the experience that she went through, and make great sleep more accessible to everyone.
+2025-11-22 19:50:07 [main] INFO  com.example.Main - Processing speaker index 1
+2025-11-22 19:50:39 [main] INFO  com.example.Main - Fetched speaker data - Name: Amanda
+Occhicone
+2025-11-22 19:50:39 [main] INFO  com.example.Main - Title: Founder & CEO of Tempo Outerwear
+2025-11-22 19:50:39 [main] INFO  com.example.Main - Social Handles: 
+2025-11-22 19:50:39 [main] INFO  com.example.Main - Image URL: https://thebabyshows.com/wp-content/uploads/2025/08/AmandaOcchicone-sm-sq.jpg
+2025-11-22 19:50:39 [main] INFO  com.example.Main - Profile: Amanda Occhicone is the Founder of Tempo Outerwear, a Canadian brand of car seat safe jackets. As a mom of two young boys, she understands firsthand the challenges that parents face keeping children safe and warm on the road. She’s on a mission to help families with practical solutions that don’t compromise on quality and style.
+2025-11-22 19:50:39 [main] INFO  com.example.Main - Processing speaker index 2
+2025-11-23 22:40:13 [main] INFO  com.example.Main - ----------Application started------------
+2025-11-23 22:40:13 [main] INFO  com.example.Main - Ensured download directory exists: C:\Users\pradi\Newpro\Download_data\
+2025-11-23 22:40:13 [main] INFO  com.example.Main - Configured webdriver.chrome.driver = C:\Users\pradi\Newpro\drivers\chromedriver-win64\chromedriver.exe
+2025-11-23 22:40:29 [main] INFO  com.example.Main - WebDriverManager set up chromedriver
+2025-11-23 22:40:31 [main] INFO  com.example.Main - Launched ChromeDriver
+2025-11-23 22:40:31 [main] INFO  com.example.Main - Allure reporter initialized
