@@ -12,6 +12,7 @@ public class PageObjectModel {
     By password = By.xpath("//input[@id='password']");
     By login = By.xpath("//div[@class='ant-col ant-col-24 webLoginBtn css-198drv2']");
     By successlogin = By.xpath("//h1[1]");
+    By profile = By.xpath("//div[@class='desk usrDetailCstmLft']");
 
 
     PageObjectModel(WebDriver driver2) {
@@ -42,5 +43,10 @@ public class PageObjectModel {
     WebElement SuccessLogin() {
 
         return driver.findElement(successlogin);
+    }
+
+    WebElement Profileview() {
+
+        return driver.findElement(profile);
     }
 }
