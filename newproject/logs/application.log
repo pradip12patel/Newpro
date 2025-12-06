@@ -84,3 +84,35 @@
 2025-12-05 20:52:31 [main] INFO  newproject.Nosotros.NosotrosTest - --------------Entered Data-------------
 2025-12-05 20:53:01 [main] INFO  newproject.Nosotros.NosotrosTest - Login failed as expected for user: tests12
 2025-12-05 20:53:11 [main] INFO  newproject.Nosotros.NosotrosTest - Login failed as expected for user: tests12
+2025-12-06 14:20:30 [main] INFO  newproject.Nosotros.NosotrosLogin - ------------------Testing Started-------------
+2025-12-06 14:20:33 [main] INFO  newproject.Nosotros.NosotrosLogin - --------------Entered Data-------------
+2025-12-06 14:20:50 [main] ERROR newproject.Nosotros.NosotrosLogin - Login failed for user: tests1
+2025-12-06 14:21:27 [main] INFO  newproject.Nosotros.NosotrosLogin - ------------------Testing Started-------------
+2025-12-06 14:21:31 [main] INFO  newproject.Nosotros.NosotrosLogin - --------------Entered Data-------------
+2025-12-06 14:22:12 [main] INFO  newproject.Nosotros.NosotrosLogin - Login failed as expected for user: tests12
+2025-12-06 14:22:16 [main] INFO  newproject.Nosotros.NosotrosLogin - ------------------Testing Started-------------
+2025-12-06 14:22:49 [main] INFO  newproject.Nosotros.NosotrosLogin - --------------Entered Data-------------
+2025-12-06 14:23:30 [main] INFO  newproject.Nosotros.NosotrosLogin - Login failed as expected for user: tests1
+2025-12-06 14:23:35 [main] INFO  newproject.Nosotros.NosotrosLogin - ------------------Testing Started-------------
+2025-12-06 14:23:57 [main] INFO  newproject.Nosotros.NosotrosLogin - --------------Entered Data-------------
+2025-12-06 14:24:38 [main] INFO  newproject.Nosotros.NosotrosLogin - Login failed as expected for user: tests12
+2025-12-06 14:31:44 [main] INFO  newproject.Nosotros.NosotrosLogin - ------------------Testing Started-------------
+2025-12-06 14:31:48 [main] INFO  newproject.Nosotros.NosotrosLogin - --------------Entered Data-------------
+2025-12-06 14:32:04 [main] ERROR newproject.Nosotros.NosotrosLogin - Login failed for user: tests1
+2025-12-06 14:32:35 [main] INFO  newproject.Nosotros.NosotrosLogin - ------------------Testing Started-------------
+2025-12-06 14:32:38 [main] INFO  newproject.Nosotros.NosotrosLogin - --------------Entered Data-------------
+2025-12-06 14:33:20 [main] INFO  newproject.Nosotros.NosotrosLogin - Login failed as expected for user: tests12
+2025-12-06 14:33:51 [main] INFO  newproject.Nosotros.NosotrosLogin - ------------------Testing Started-------------
+2025-12-06 14:33:53 [main] INFO  newproject.Nosotros.NosotrosLogin - --------------Entered Data-------------
+2025-12-06 14:34:34 [main] INFO  newproject.Nosotros.NosotrosLogin - Login failed as expected for user: tests1
+2025-12-06 14:34:39 [main] INFO  newproject.Nosotros.NosotrosLogin - ------------------Testing Started-------------
+2025-12-06 14:42:58 [main] INFO  newproject.Nosotros.NosotrosLogin - ------------------Testing Started-------------
+2025-12-06 14:43:01 [main] INFO  newproject.Nosotros.NosotrosLogin - --------------Entered Data-------------
+2025-12-06 14:43:22 [main] INFO  newproject.Nosotros.NosotrosLogin - Login successful for user: tests1
+2025-12-06 14:43:55 [main] INFO  newproject.Nosotros.NosotrosLogin - ------------------Testing Started-------------
+2025-12-06 14:43:58 [main] INFO  newproject.Nosotros.NosotrosLogin - --------------Entered Data-------------
+2025-12-06 14:44:39 [main] INFO  newproject.Nosotros.NosotrosLogin - Login failed as expected for user: tests12
+2025-12-06 14:47:18 [main] INFO  newproject.Nosotros.NosotrosLogin - ------------------Testing Started-------------
+2025-12-06 14:47:23 [main] INFO  newproject.Nosotros.NosotrosLogin - --------------Entered Data-------------
+2025-12-06 14:48:04 [main] INFO  newproject.Nosotros.NosotrosLogin - Login failed as expected for user: tests1
+2025-12-06 14:50:30 [main] INFO  newproject.Nosotros.NosotrosLogin - ------------------Testing Started-------------

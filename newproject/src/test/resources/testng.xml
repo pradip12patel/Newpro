@@ -6,7 +6,7 @@
 
     <test name="Login Test">
         <classes>
-            <class name="newproject.Nosotros.NosotrosTest"/>
+            <class name="newproject.Nosotros.NosotrosLogin"/>
         </classes>
     </test>
 </suite>

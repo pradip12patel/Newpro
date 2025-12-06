@@ -4,11 +4,13 @@ import java.time.Duration;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
-import dev.failsafe.internal.util.Assert;
 import io.qameta.allure.Allure;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
@@ -18,7 +20,7 @@ import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 
 @Listeners({io.qameta.allure.testng.AllureTestNg.class})
-public class NosotrosTest extends BaseClass {
+public class NosotrosLogin extends BaseClass {
 
     static ConstantMethod cm = new ConstantMethod();
 
@@ -40,7 +42,7 @@ public class NosotrosTest extends BaseClass {
     @Test(dataProvider = "loginData")
     public void testLoginMethod(String username, String password, String expectedResult) {
 
-        final Logger logger = LogManager.getLogger(NosotrosTest.class);
+        final Logger logger = LogManager.getLogger(NosotrosLogin.class);
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
         final PageObjectModel pom = new PageObjectModel(driver);
@@ -56,35 +58,39 @@ public class NosotrosTest extends BaseClass {
 
         pom.Login().click();
 
+        SoftAssert softAssert = new SoftAssert();
         boolean isLoggedIn = false;
 
         try {
-            isLoggedIn = pom.Profileview().isDisplayed();
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+            wait.until(ExpectedConditions.visibilityOf(pom.Profileview()));
+            isLoggedIn = true;
         } catch (Exception e) {
             isLoggedIn = false;
         }
 
-        if (expectedResult.equals("success")) {
+        if (expectedResult.equalsIgnoreCase("success")) {
+
             if (isLoggedIn) {
-                System.out.println("Login successful for user: " + username);
                 logger.info("Login successful for user: " + username);
-                Assert.isTrue(true, "Login test passed");
+                softAssert.assertTrue(isLoggedIn, "Login should succeed for user: " + username);
             } else {
-                System.out.println("Login failed for user: " + username);
                 logger.error("Login failed for user: " + username);
-                Assert.isTrue(false, "Login test failed");
+                softAssert.assertTrue(false, "Login test failed");
             }
-        } else if (expectedResult.equals("Fail")) {
+
+        } else if (expectedResult.equalsIgnoreCase("fail")) {
+
             if (!isLoggedIn) {
-                System.out.println("Login failed as expected for user: " + username);
                 logger.info("Login failed as expected for user: " + username);
-                Assert.isTrue(true, "Negative login test passed");
+                softAssert.assertFalse(isLoggedIn, "Login should fail for user: " + username);
             } else {
-                System.out.println("Login succeeded unexpectedly for user: " + username);
                 logger.error("Login succeeded unexpectedly for user: " + username);
-                Assert.isTrue(false, "Negative login test failed");
+                softAssert.assertTrue(false, "Negative login test failed");
             }
         }
+
+        softAssert.assertAll();
 
     }
 
