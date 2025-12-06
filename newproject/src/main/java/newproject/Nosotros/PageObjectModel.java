@@ -1,5 +1,7 @@
 package newproject.Nosotros;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -13,6 +15,8 @@ public class PageObjectModel {
     By login = By.xpath("//div[@class='ant-col ant-col-24 webLoginBtn css-198drv2']");
     By successlogin = By.xpath("//h1[1]");
     By profile = By.xpath("//div[@class='desk usrDetailCstmLft']");
+    By books = By.xpath("//div[@class='sc-fUHNTy fwGXPo userSection']//div//div//div//div//ul//a");
+    By home = By.xpath("//div[@aria-label='Drag e9e74541-0a20-44d3-9d48-3131d9c70697']//li[1]//a[1]");
 
 
     PageObjectModel(WebDriver driver2) {
@@ -48,5 +52,16 @@ public class PageObjectModel {
     WebElement Profileview() {
 
         return driver.findElement(profile);
+    }
+
+    List<WebElement> Booksview() {
+
+        return driver.findElements(books);
+
+    }
+
+     WebElement homegrade() {
+
+        return driver.findElement(home);
     }
 }

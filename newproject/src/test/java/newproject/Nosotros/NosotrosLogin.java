@@ -24,7 +24,7 @@ public class NosotrosLogin extends BaseClass {
 
     static ConstantMethod cm = new ConstantMethod();
 
-    @DataProvider(name = "loginData")
+    @DataProvider(name = "loginData", parallel = true)
     public Object[][] getLoginData() {
 
         return new Object[][]{
@@ -48,6 +48,8 @@ public class NosotrosLogin extends BaseClass {
         final PageObjectModel pom = new PageObjectModel(driver);
 
         logger.info("------------------Testing Started-------------");
+        System.out.println("Login Thread: " + Thread.currentThread().getId());
+
         // Login flow
         pom.Clicklogin().click();
         Allure.step("Login button clicked");

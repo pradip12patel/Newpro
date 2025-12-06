@@ -155,3 +155,47 @@
 2025-12-06 23:17:58 [main] INFO  newproject.Nosotros.NosotrosLogin - ------------------Testing Started-------------
 2025-12-06 23:18:00 [main] INFO  newproject.Nosotros.NosotrosLogin - --------------Entered Data-------------
 2025-12-06 23:18:41 [main] INFO  newproject.Nosotros.NosotrosLogin - Login failed as expected for user: tests12
+2025-12-07 00:36:52 [main] INFO  newproject.Nosotros.Assignment - ------------------Testing Started-------------
+2025-12-07 00:37:50 [main] INFO  newproject.Nosotros.Assignment - --------------Entered Data-------------
+2025-12-07 00:44:38 [TestNG-tests-1] INFO  newproject.Nosotros.NosotrosLogin - ------------------Testing Started-------------
+2025-12-07 00:44:39 [TestNG-tests-1] INFO  newproject.Nosotros.NosotrosLogin - --------------Entered Data-------------
+2025-12-07 00:45:04 [TestNG-tests-1] INFO  newproject.Nosotros.NosotrosLogin - Login successful for user: tests1
+2025-12-07 00:47:07 [TestNG-tests-1] INFO  newproject.Nosotros.NosotrosLogin - ------------------Testing Started-------------
+2025-12-07 00:47:09 [TestNG-tests-1] INFO  newproject.Nosotros.NosotrosLogin - --------------Entered Data-------------
+2025-12-07 00:47:50 [TestNG-tests-1] INFO  newproject.Nosotros.NosotrosLogin - Login failed as expected for user: tests12
+2025-12-07 00:50:04 [TestNG-tests-1] INFO  newproject.Nosotros.NosotrosLogin - ------------------Testing Started-------------
+2025-12-07 00:50:06 [TestNG-tests-1] INFO  newproject.Nosotros.NosotrosLogin - --------------Entered Data-------------
+2025-12-07 00:50:46 [TestNG-tests-1] INFO  newproject.Nosotros.NosotrosLogin - Login failed as expected for user: tests1
+2025-12-07 00:52:23 [TestNG-tests-1] INFO  newproject.Nosotros.NosotrosLogin - ------------------Testing Started-------------
+2025-12-07 00:52:25 [TestNG-tests-1] INFO  newproject.Nosotros.NosotrosLogin - --------------Entered Data-------------
+2025-12-07 00:53:06 [TestNG-tests-1] INFO  newproject.Nosotros.NosotrosLogin - Login failed as expected for user: tests12
+2025-12-07 00:53:51 [TestNG-tests-1] INFO  newproject.Nosotros.Assignment - ------------------Testing Started-------------
+2025-12-07 00:53:54 [TestNG-tests-1] INFO  newproject.Nosotros.Assignment - --------------Entered Data-------------
+2025-12-07 00:59:18 [TestNG-test-Nosotros Test-1] INFO  newproject.Nosotros.NosotrosLogin - ------------------Testing Started-------------
+2025-12-07 01:00:16 [TestNG-test-Nosotros Test-2] INFO  newproject.Nosotros.Assignment - ------------------Testing Started-------------
+2025-12-07 01:00:18 [TestNG-test-Nosotros Test-2] INFO  newproject.Nosotros.Assignment - --------------Entered Data-------------
+2025-12-07 01:00:30 [TestNG-test-Nosotros Test-1] INFO  newproject.Nosotros.NosotrosLogin - --------------Entered Data-------------
+2025-12-07 01:00:53 [TestNG-test-Nosotros Test-1] INFO  newproject.Nosotros.NosotrosLogin - Login successful for user: tests1
+2025-12-07 01:01:46 [TestNG-test-Nosotros Test-1] INFO  newproject.Nosotros.NosotrosLogin - ------------------Testing Started-------------
+2025-12-07 01:01:48 [TestNG-test-Nosotros Test-1] INFO  newproject.Nosotros.NosotrosLogin - --------------Entered Data-------------
+2025-12-07 01:02:29 [TestNG-test-Nosotros Test-1] INFO  newproject.Nosotros.NosotrosLogin - Login failed as expected for user: tests12
+2025-12-07 01:02:33 [TestNG-test-Nosotros Test-1] INFO  newproject.Nosotros.NosotrosLogin - ------------------Testing Started-------------
+2025-12-07 01:04:01 [TestNG-test-Nosotros Test-1] INFO  newproject.Nosotros.NosotrosLogin - --------------Entered Data-------------
+2025-12-07 01:04:42 [TestNG-test-Nosotros Test-1] INFO  newproject.Nosotros.NosotrosLogin - Login failed as expected for user: tests1
+2025-12-07 01:05:48 [TestNG-test-Nosotros Test-1] INFO  newproject.Nosotros.NosotrosLogin - ------------------Testing Started-------------
+2025-12-07 01:05:52 [TestNG-test-Nosotros Test-1] INFO  newproject.Nosotros.NosotrosLogin - --------------Entered Data-------------
+2025-12-07 01:06:33 [TestNG-test-Nosotros Test-1] INFO  newproject.Nosotros.NosotrosLogin - Login failed as expected for user: tests12
+2025-12-07 01:18:51 [main] INFO  newproject.Nosotros.Assignment - ------------------Testing Started-------------
+2025-12-07 01:18:53 [main] INFO  newproject.Nosotros.Assignment - --------------Entered Data-------------
+2025-12-07 01:26:53 [main] INFO  newproject.Nosotros.Assignment - ------------------Testing Started-------------
+2025-12-07 01:26:54 [main] INFO  newproject.Nosotros.Assignment - --------------Entered Data-------------
+2025-12-07 01:27:08 [main] INFO  newproject.Nosotros.Assignment - --------------Navigated to class-------------
+2025-12-07 02:07:32 [main] INFO  newproject.Nosotros.Assignment - ------------------Testing Started-------------
+2025-12-07 02:07:36 [main] INFO  newproject.Nosotros.Assignment - --------------Entered Data-------------
+2025-12-07 02:07:52 [main] INFO  newproject.Nosotros.Assignment - Class Name: Home GradebookHide
+2025-12-07 02:21:15 [main] INFO  newproject.Nosotros.Assignment - ------------------Testing Started-------------
+2025-12-07 02:21:17 [main] INFO  newproject.Nosotros.Assignment - --------------Entered Data-------------
+2025-12-07 02:21:35 [main] INFO  newproject.Nosotros.Assignment - Class Name: Home GradebookHide
+2025-12-07 02:29:14 [main] INFO  newproject.Nosotros.Assignment - ------------------Testing Started-------------
+2025-12-07 02:29:16 [main] INFO  newproject.Nosotros.Assignment - --------------Entered Data-------------
+2025-12-07 02:29:33 [main] INFO  newproject.Nosotros.Assignment - Clicked on class: Gradebook

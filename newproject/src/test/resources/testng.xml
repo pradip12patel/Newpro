@@ -1,12 +1,13 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Automation Suite"  parallel="tests" thread-count="3">
+<suite name="Automation Suite"  parallel="classes" thread-count="5">
     <listeners>
         <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
     </listeners>
 
-    <test name="Login Test">
+    <test name="Nosotros Test">
         <classes>
             <class name="newproject.Nosotros.NosotrosLogin"/>
+            <class name="newproject.Nosotros.Assignment"/>
         </classes>
     </test>
 </suite>
