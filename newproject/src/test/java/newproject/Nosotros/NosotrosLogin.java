@@ -28,10 +28,10 @@ public class NosotrosLogin extends BaseClass {
     public Object[][] getLoginData() {
 
         return new Object[][]{
-          //  {cm.username1, cm.password1, "success"},
-          //  {cm.username2, cm.password2, "Fail"},
-          //  {cm.username3, cm.password3, "Fail"},
-            {cm.username4, cm.password4, "Fail"},};
+           {cm.username1, cm.password1, "success"},
+           {cm.username2, cm.password2, "Fail"},
+           {cm.username3, cm.password3, "Fail"},
+           {cm.username4, cm.password4, "Fail"},};
     }
 
     @Epic("User Module")
