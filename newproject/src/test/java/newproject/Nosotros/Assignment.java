@@ -20,11 +20,11 @@ public class Assignment extends BaseClass {
 
     static ConstantMethod cm = new ConstantMethod();
 
-    @Epic("Teacher Module")
-    @Feature("Assignment Feature")
-    @Story("Verify Assignment with single user")
+    @Epic("Teacher'assignment Module")
+    @Feature("Assignment create feature")
+    @Story("Verify Assignment create with single user")
     @Severity(SeverityLevel.CRITICAL)
-    @Description("assignment test using single username & password combination")
+    @Description("assignment create using single username & password combination")
     @Test
     public void testAssignment() {
 
