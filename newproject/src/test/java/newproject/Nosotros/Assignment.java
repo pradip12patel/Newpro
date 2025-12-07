@@ -61,16 +61,17 @@ public class Assignment extends BaseClass {
         }
 
         List<WebElement> books = pom.bookview();
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(25));
 
         for (int j = 0; j < books.size(); j++) {
 
-            if (j == 1)  {
-             
-                WebElement book = books.get(j);
-                String bookName = book.getText();
+            if (j == 1) {
+
+                String bookName = books.get(1).getText();
+                WebElement book = books.get(1);
 
                 JavascriptExecutor js = (JavascriptExecutor) driver;
+
                 js.executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", book);
 
                 wait.until(ExpectedConditions.elementToBeClickable(book));
@@ -78,6 +79,7 @@ public class Assignment extends BaseClass {
 
                 logger.info("Clicked on Book: " + bookName);
                 Allure.step("Book Name: " + bookName);
+                break;
             }
         }
 

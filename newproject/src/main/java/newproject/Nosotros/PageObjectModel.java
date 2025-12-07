@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 public class PageObjectModel {
 
     WebDriver driver;
-    By clicklogin = By.xpath("//div[@class='ant-row deathDeskBtn css-198drv2']//button[@type='button'][normalize-space()='Login']");
+    By clicklogin = By.xpath("(//button[@type='button'])[1]");
     By username = By.xpath("//input[@id='studentUsername']");
     By password = By.xpath("//input[@id='password']");
     By login = By.xpath("//div[@class='ant-col ant-col-24 webLoginBtn css-198drv2']");

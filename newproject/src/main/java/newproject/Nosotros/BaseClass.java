@@ -70,7 +70,7 @@ public class BaseClass extends AllureReporter{
 	@AfterMethod
 	public void aftermethod()   {
 
-       driver.manage().window().minimize();
+       driver.manage().window().setSize(new org.openqa.selenium.Dimension(1920,1080));
 	   logger.info("-------------Browser Closed----------------");
 	}
 
