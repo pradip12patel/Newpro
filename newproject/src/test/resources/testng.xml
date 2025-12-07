@@ -2,6 +2,7 @@
 <suite name="Automation Suite"  parallel="classes" thread-count="5">
     <listeners>
         <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+            <listener class-name="newproject.Nosotros.AllureFailureListener"/>
     </listeners>
 
     <test name="Nosotros Test">

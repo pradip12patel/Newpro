@@ -9,6 +9,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import io.qameta.allure.Allure;
@@ -19,6 +20,8 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 
+@Listeners({io.qameta.allure.testng.AllureTestNg.class, 
+            newproject.Nosotros.AllureFailureListener.class})
 public class Assignment extends BaseClass {
 
     static ConstantMethod cm = new ConstantMethod();

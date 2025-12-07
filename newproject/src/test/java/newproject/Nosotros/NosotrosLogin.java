@@ -19,7 +19,8 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 
-@Listeners({io.qameta.allure.testng.AllureTestNg.class})
+@Listeners({io.qameta.allure.testng.AllureTestNg.class, 
+            newproject.Nosotros.AllureFailureListener.class})
 public class NosotrosLogin extends BaseClass {
 
     static ConstantMethod cm = new ConstantMethod();

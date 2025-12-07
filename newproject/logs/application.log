@@ -10,3 +10,7 @@
 2025-12-07 16:10:45 [main] INFO  newproject.Nosotros.Assignment - Clicked on class: Home
 2025-12-07 16:10:59 [main] INFO  newproject.Nosotros.Assignment - Clicked on Book: 
 2025-12-07 16:11:00 [main] INFO  newproject.Nosotros.BaseClass - -------------Browser Closed----------------
+2025-12-07 18:48:23 [TestNG-test-Nosotros Test-1] INFO  newproject.Nosotros.BaseClass - -------------Browser Launching----------------
+2025-12-07 18:48:30 [TestNG-test-Nosotros Test-1] INFO  newproject.Nosotros.Assignment - ------------------Testing Started-------------
+2025-12-07 18:48:41 [TestNG-test-Nosotros Test-1] INFO  newproject.Nosotros.Assignment - --------------Entered Data-------------
+2025-12-07 18:48:52 [TestNG-test-Nosotros Test-1] INFO  newproject.Nosotros.Assignment - Clicked on class: Home

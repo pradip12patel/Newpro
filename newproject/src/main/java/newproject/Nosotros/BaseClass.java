@@ -17,7 +17,8 @@ import org.testng.annotations.Listeners;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-@Listeners({io.qameta.allure.testng.AllureTestNg.class})
+@Listeners({io.qameta.allure.testng.AllureTestNg.class, 
+            newproject.Nosotros.AllureFailureListener.class})
 public class BaseClass extends AllureReporter{
 
 	Properties properties = new Properties();
