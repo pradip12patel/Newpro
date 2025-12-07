@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.Properties;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -20,6 +22,9 @@ public class BaseClass extends AllureReporter{
 
 	Properties properties = new Properties();
 	WebDriver driver;
+
+	        final Logger logger = LogManager.getLogger(BaseClass.class);
+
 
 	public void driverintilizer() throws IOException {
 		FileInputStream fis = new FileInputStream(
@@ -52,6 +57,8 @@ public class BaseClass extends AllureReporter{
     @BeforeMethod
 	public void openurl() throws IOException {
 
+		logger.info("-------------Browser Launching----------------");
+
 		driverintilizer();
 
 		String key2 = properties.getProperty("url");
@@ -64,7 +71,7 @@ public class BaseClass extends AllureReporter{
 	public void aftermethod()   {
 
        driver.manage().window().minimize();
-
+	   logger.info("-------------Browser Closed----------------");
 	}
 
 }
