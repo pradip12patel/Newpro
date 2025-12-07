@@ -44,7 +44,7 @@ public class Assignment extends BaseClass {
 
         pom.Login().click();
 
-        List<WebElement> classes = pom.Booksview();
+        List<WebElement> classes = pom.classview();
 
         for (int i = 0; i < classes.size(); i++) {
 
@@ -53,6 +53,18 @@ public class Assignment extends BaseClass {
                 classes.get(3).click();
                 logger.info("Clicked on class: " + className);
                 Allure.step("Class Name: " + className);
+                break;
+            }
+        }
+
+
+        for(int j=0;j<pom.bookview().size();j++) {
+
+            if(j==2) {
+                String bookName = pom.bookview().get(2).getText();
+                pom.bookview().get(2).click();
+                logger.info("Clicked on Book: " + bookName);
+                Allure.step("Book Name: " + bookName);
                 break;
             }
         }
