@@ -16,7 +16,7 @@ public class PageObjectModel {
     By successlogin = By.xpath("//h1[1]");
     By profile = By.xpath("//div[@class='desk usrDetailCstmLft']");
     By classes = By.xpath("//div[@class='sc-fUHNTy fwGXPo userSection']//div//div//div//div//ul//a");
-    By book = By.xpath("//div[@class='sc-bGKrOD kYjXcT']//li");
+    By book = By.xpath("//div[@class='bookName 222 cursor-pointer']");
 
 
     PageObjectModel(WebDriver driver2) {

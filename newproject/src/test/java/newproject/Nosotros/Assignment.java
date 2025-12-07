@@ -5,7 +5,10 @@ import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 import io.qameta.allure.Allure;
@@ -57,15 +60,24 @@ public class Assignment extends BaseClass {
             }
         }
 
+        List<WebElement> books = pom.bookview();
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
-        for(int j=0;j<pom.bookview().size();j++) {
+        for (int j = 0; j < books.size(); j++) {
 
-            if(j==2) {
-                String bookName = pom.bookview().get(2).getText();
-                pom.bookview().get(2).click();
+            if (j == 1)  {
+             
+                WebElement book = books.get(j);
+                String bookName = book.getText();
+
+                JavascriptExecutor js = (JavascriptExecutor) driver;
+                js.executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", book);
+
+                wait.until(ExpectedConditions.elementToBeClickable(book));
+                js.executeScript("arguments[0].click();", book);
+
                 logger.info("Clicked on Book: " + bookName);
                 Allure.step("Book Name: " + bookName);
-                break;
             }
         }
 

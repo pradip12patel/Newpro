@@ -63,7 +63,7 @@ public class BaseClass extends AllureReporter{
 	@AfterMethod
 	public void aftermethod()   {
 
-       driver.manage().window().maximize();
+       driver.manage().window().minimize();
 
 	}
 
