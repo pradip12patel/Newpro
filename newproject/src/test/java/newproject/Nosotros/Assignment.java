@@ -30,7 +30,7 @@ public class Assignment extends BaseClass {
     @Feature("Assignment create feature")
     @Story("Verify Assignment create with single user")
     @Severity(SeverityLevel.CRITICAL)
-    @Description("assignment create using single username & password combination")
+    @Description("Assignment create using single username & password combination")
     @Test
     public void testAssignment() {
 
