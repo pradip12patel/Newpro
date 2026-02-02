@@ -14,3 +14,62 @@
 2025-12-07 18:48:30 [TestNG-test-Nosotros Test-1] INFO  newproject.Nosotros.Assignment - ------------------Testing Started-------------
 2025-12-07 18:48:41 [TestNG-test-Nosotros Test-1] INFO  newproject.Nosotros.Assignment - --------------Entered Data-------------
 2025-12-07 18:48:52 [TestNG-test-Nosotros Test-1] INFO  newproject.Nosotros.Assignment - Clicked on class: Home
+2025-12-08 10:48:45 [TestNG-test-Nosotros Test-2] INFO  newproject.Nosotros.BaseClass - -------------Browser Launching----------------
+2025-12-08 10:48:45 [TestNG-PoolService-3] INFO  newproject.Nosotros.BaseClass - -------------Browser Launching----------------
+2025-12-08 10:48:45 [TestNG-PoolService-2] INFO  newproject.Nosotros.BaseClass - -------------Browser Launching----------------
+2025-12-08 10:48:45 [TestNG-PoolService-1] INFO  newproject.Nosotros.BaseClass - -------------Browser Launching----------------
+2025-12-08 10:48:45 [TestNG-PoolService-4] INFO  newproject.Nosotros.BaseClass - -------------Browser Launching----------------
+2025-12-08 10:48:53 [TestNG-PoolService-2] INFO  newproject.Nosotros.NosotrosLogin - ------------------Testing Started-------------
+2025-12-08 10:48:53 [TestNG-test-Nosotros Test-2] INFO  newproject.Nosotros.Assignment - ------------------Testing Started-------------
+2025-12-08 10:48:53 [TestNG-PoolService-4] INFO  newproject.Nosotros.NosotrosLogin - ------------------Testing Started-------------
+2025-12-08 10:48:54 [TestNG-PoolService-2] INFO  newproject.Nosotros.NosotrosLogin - --------------Entered Data-------------
+2025-12-08 10:48:54 [TestNG-test-Nosotros Test-2] INFO  newproject.Nosotros.Assignment - --------------Entered Data-------------
+2025-12-08 10:49:03 [TestNG-test-Nosotros Test-2] INFO  newproject.Nosotros.Assignment - Clicked on class: Home
+2025-12-08 10:49:12 [TestNG-test-Nosotros Test-2] INFO  newproject.Nosotros.Assignment - Clicked on Book: 
+2025-12-08 10:49:12 [TestNG-test-Nosotros Test-2] INFO  newproject.Nosotros.BaseClass - -------------Browser Closed----------------
+2025-12-08 10:49:34 [TestNG-PoolService-2] INFO  newproject.Nosotros.NosotrosLogin - Login failed as expected for user: tests12
+2025-12-08 10:49:34 [TestNG-PoolService-1] INFO  newproject.Nosotros.NosotrosLogin - ------------------Testing Started-------------
+2025-12-08 10:49:34 [TestNG-PoolService-3] INFO  newproject.Nosotros.NosotrosLogin - ------------------Testing Started-------------
+2025-12-08 10:49:34 [TestNG-PoolService-4] INFO  newproject.Nosotros.NosotrosLogin - --------------Entered Data-------------
+2025-12-08 10:49:34 [TestNG-PoolService-2] INFO  newproject.Nosotros.BaseClass - -------------Browser Closed----------------
+2025-12-08 10:49:39 [TestNG-PoolService-1] INFO  newproject.Nosotros.BaseClass - -------------Browser Closed----------------
+2025-12-08 10:49:39 [TestNG-PoolService-3] INFO  newproject.Nosotros.BaseClass - -------------Browser Closed----------------
+2025-12-08 10:49:40 [TestNG-PoolService-4] INFO  newproject.Nosotros.BaseClass - -------------Browser Closed----------------
+2025-12-08 10:50:32 [TestNG-PoolService-1] INFO  newproject.Nosotros.BaseClass - -------------Browser Launching----------------
+2025-12-08 10:50:32 [TestNG-PoolService-4] INFO  newproject.Nosotros.BaseClass - -------------Browser Launching----------------
+2025-12-08 10:50:32 [TestNG-PoolService-3] INFO  newproject.Nosotros.BaseClass - -------------Browser Launching----------------
+2025-12-08 10:50:32 [TestNG-PoolService-2] INFO  newproject.Nosotros.BaseClass - -------------Browser Launching----------------
+2025-12-08 10:50:32 [TestNG-test-Nosotros Test-2] INFO  newproject.Nosotros.BaseClass - -------------Browser Launching----------------
+2025-12-08 10:50:35 [TestNG-test-Nosotros Test-2] INFO  newproject.Nosotros.Assignment - ------------------Testing Started-------------
+2025-12-08 10:50:35 [TestNG-PoolService-2] INFO  newproject.Nosotros.NosotrosLogin - ------------------Testing Started-------------
+2025-12-08 10:50:35 [TestNG-PoolService-4] INFO  newproject.Nosotros.NosotrosLogin - ------------------Testing Started-------------
+2025-12-08 10:50:35 [TestNG-PoolService-1] INFO  newproject.Nosotros.NosotrosLogin - ------------------Testing Started-------------
+2025-12-08 10:50:35 [TestNG-PoolService-3] INFO  newproject.Nosotros.NosotrosLogin - ------------------Testing Started-------------
+2025-12-08 10:50:41 [TestNG-PoolService-2] INFO  newproject.Nosotros.BaseClass - -------------Browser Closed----------------
+2025-12-08 10:50:41 [TestNG-PoolService-3] INFO  newproject.Nosotros.BaseClass - -------------Browser Closed----------------
+2025-12-08 10:50:42 [TestNG-PoolService-1] INFO  newproject.Nosotros.BaseClass - -------------Browser Closed----------------
+2025-12-08 10:50:42 [TestNG-PoolService-4] INFO  newproject.Nosotros.NosotrosLogin - --------------Entered Data-------------
+2025-12-08 10:50:43 [TestNG-test-Nosotros Test-2] INFO  newproject.Nosotros.Assignment - --------------Entered Data-------------
+2025-12-08 10:50:51 [TestNG-test-Nosotros Test-2] INFO  newproject.Nosotros.Assignment - Clicked on class: Home
+2025-12-08 10:51:02 [TestNG-test-Nosotros Test-2] INFO  newproject.Nosotros.Assignment - Clicked on Book: 
+2025-12-08 10:51:02 [TestNG-test-Nosotros Test-2] INFO  newproject.Nosotros.BaseClass - -------------Browser Closed----------------
+2025-12-08 10:51:22 [TestNG-PoolService-4] INFO  newproject.Nosotros.NosotrosLogin - Login failed as expected for user: tests12
+2025-12-08 10:51:22 [TestNG-PoolService-4] INFO  newproject.Nosotros.BaseClass - -------------Browser Closed----------------
+2025-12-10 17:49:54 [TestNG-PoolService-2] INFO  newproject.Nosotros.BaseClass - -------------Browser Launching----------------
+2025-12-10 17:49:54 [TestNG-test-Nosotros Test-2] INFO  newproject.Nosotros.BaseClass - -------------Browser Launching----------------
+2025-12-10 17:49:54 [TestNG-PoolService-4] INFO  newproject.Nosotros.BaseClass - -------------Browser Launching----------------
+2025-12-10 17:49:54 [TestNG-PoolService-1] INFO  newproject.Nosotros.BaseClass - -------------Browser Launching----------------
+2025-12-10 17:49:54 [TestNG-PoolService-3] INFO  newproject.Nosotros.BaseClass - -------------Browser Launching----------------
+2025-12-10 17:50:00 [TestNG-PoolService-2] INFO  newproject.Nosotros.NosotrosLogin - ------------------Testing Started-------------
+2025-12-10 17:50:00 [TestNG-PoolService-3] INFO  newproject.Nosotros.NosotrosLogin - ------------------Testing Started-------------
+2025-12-10 17:50:06 [TestNG-PoolService-3] INFO  newproject.Nosotros.NosotrosLogin - --------------Entered Data-------------
+2025-12-10 17:50:07 [TestNG-test-Nosotros Test-2] INFO  newproject.Nosotros.Assignment - ------------------Testing Started-------------
+2025-12-10 17:50:07 [TestNG-test-Nosotros Test-2] INFO  newproject.Nosotros.Assignment - --------------Entered Data-------------
+2025-12-10 17:50:08 [TestNG-PoolService-1] INFO  newproject.Nosotros.NosotrosLogin - ------------------Testing Started-------------
+2025-12-10 17:50:08 [TestNG-PoolService-4] INFO  newproject.Nosotros.NosotrosLogin - ------------------Testing Started-------------
+2025-12-10 17:50:09 [TestNG-PoolService-2] INFO  newproject.Nosotros.BaseClass - -------------Browser Closed----------------
+2025-12-10 17:50:46 [TestNG-PoolService-3] INFO  newproject.Nosotros.NosotrosLogin - Login failed as expected for user: tests1
+2025-12-10 17:50:49 [TestNG-PoolService-3] INFO  newproject.Nosotros.BaseClass - -------------Browser Closed----------------
+2025-12-10 17:51:28 [TestNG-test-Nosotros Test-2] INFO  newproject.Nosotros.BaseClass - -------------Browser Closed----------------
+2025-12-10 17:51:30 [TestNG-PoolService-1] INFO  newproject.Nosotros.BaseClass - -------------Browser Closed----------------
+2025-12-10 17:51:30 [TestNG-PoolService-4] INFO  newproject.Nosotros.BaseClass - -------------Browser Closed----------------
